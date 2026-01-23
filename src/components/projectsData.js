@@ -1,6 +1,6 @@
 import Geosync from "../assets/Geosync.jpg.jpeg";
 import ResumeAnalyzer from "../assets/Resumeanalyzer.jpeg";
-import ExpenseTracker from "../assets/ExpenseTracker.jpeg";
+import ExpenseTracker from "../assets/Expensetracker.jpeg";
 import InvoiceGenerator from "../assets/Invoicegenerator.jpeg";
 import portfolioImg from "../assets/portfolio.jpg.jpeg";
 const projects = [
