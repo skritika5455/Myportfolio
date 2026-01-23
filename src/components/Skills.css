@@ -1,0 +1,81 @@
+.skills-section {
+  padding: 100px 10%;
+  background: radial-gradient(circle at top, #0b1220, #020617);
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2.8rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.skills-subtitle {
+  color: #94a3b8;
+  margin-bottom: 60px;
+}
+
+/* Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.skill-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(14px);
+  padding: 35px 25px;
+  border-radius: 22px;
+  box-shadow: 0 0 35px rgba(34, 211, 238, 0.12);
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  box-shadow: 0 0 50px rgba(34, 211, 238, 0.35);
+}
+
+/* Icon */
+.skill-icon {
+  font-size: 3rem;
+  margin-bottom: 18px;
+}
+
+/* Name */
+.skill-card h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 18px;
+}
+
+/* Progress Bar FIXED */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #22d3ee, #22c55e);
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.9);
+}
+
+/* Percentage */
+.skill-percent {
+  color: #cbd5f5;
+  font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  .grid,
+  .cards,
+  .edu-grid,
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
