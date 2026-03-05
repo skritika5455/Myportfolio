@@ -15,6 +15,7 @@ export default function Education() {
     "Sem 4": "SGPA: 8.88",
     "Sem 5": "SGPA: 9.08",
     "Sem 6": "SGPA: 9.13",
+    "Sem 7": "SGPA: 9.25",
   };
 
   return (
